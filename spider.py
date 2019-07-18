@@ -33,9 +33,6 @@ db = client['Weimao']
 
 '''
 def login():
-    '''
-    模拟登陆
-    '''
     url = "https://www.weimao.com/search/category/12"
     driver.get(url)
     js="var q=document.documentElement.scrollTop=100000"
